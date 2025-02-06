@@ -26,6 +26,18 @@
     -->
     <title>React App</title>
     <script src="https://assets.adobedtm.com/01296dd00565/8e34134a9392/launch-7b05ec50dc57-development.min.js" async></script>
+    <script>
+      window.dataLayer = {
+        pageName: "Rajesh SPA", 
+        pageView:"viewName",
+        userType: "Guest",
+        userID:"369369",
+        PageTitle:document.title,
+        timestamp:new Date().toString(),
+        pageUrl:window.location.href,
+      };
+      console.log(window.dataLayer);
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
